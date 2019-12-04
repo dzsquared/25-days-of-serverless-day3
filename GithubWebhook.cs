@@ -29,8 +29,8 @@ namespace Company.Function
             // name = name ?? data?.name;
 
             if (data) {
-                return new OkObjectResult("success");
             }
+            return new OkObjectResult("success");
 
         }
     }
