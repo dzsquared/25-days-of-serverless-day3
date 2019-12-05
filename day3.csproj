@@ -5,6 +5,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
+        <PackageReference Include="system.data.common" Version="4.3.0" />
+    <PackageReference Include="system.data.sqlclient" Version="4.5.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
